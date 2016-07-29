@@ -4,7 +4,6 @@ class Anagram
     @word_a = word_a
     @word_b = word_b
   end
-  pear
 
   def are_anagram
     string_a = @word_a.chars.sort.join("")
